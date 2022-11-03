@@ -1,0 +1,60 @@
+<body>
+  <img src="https://valentingassend.github.io/Hosted-assets/Trac%C3%A9%2011158.svg" id='plainSvg' />
+  <svg style="width:0;height:0;position:absolute;" aria-hidden="true" focusable="false">
+    <linearGradient id="svg-gradient" x="-200" y="-200" width="300" height="300">
+      <!-- stop-color = couleur dégradé variation  -->
+      <stop offset="20%" stop-color="#1aff00">
+        <!-- Values = couleur dégradé start; couleur dégradé start; couleur dégradé variation; couleur dégradé end; couleur dégradé end;      -->
+        <!--         
+                     KeyTime 
+                     → défini entre 0 et 1, avec 1 = "dur" soit ici 4s. donc 0.5 = 2s
+                     
+                     = (obligatoire) 0 ; temps debut de transition dégradé; temps couleur de variation; temps fin de transition dégradé; (obligatoire) 1; 
+        -->
+        <animate attributeName="stop-color" values="#707070; #1aff00; #707070; #707070" keyTimes="0; 0.2; 0.4; 1" dur="10s" repeatCount="indefinite"></animate>
+      </stop>
+      <!-- stop-color = couleur dégradé variation  -->
+      <stop offset="40%" stop-color="#1aff00">
+        <!-- Values = couleur dégradé start; couleur dégradé start; couleur dégradé variation; couleur dégradé end; couleur dégradé end;      -->
+        <!--         
+                     KeyTime 
+                     → défini entre 0 et 1, avec 1 = "dur" soit ici 4s. donc 0.5 = 2s
+                     
+                     = (obligatoire) 0 ; temps debut de transition dégradé; temps couleur de variation; temps fin de transition dégradé; (obligatoire) 1; 
+        -->
+        <animate attributeName="stop-color" values="#707070; #707070; #1aff00; #707070; #707070" keyTimes="0; 0.2; 0.4; 0.6; 1" dur="10s" repeatCount="indefinite"></animate>
+      </stop>
+      
+      <!-- stop-color = couleur dégradé variation  -->
+      <stop offset="60%" stop-color="#1aff00">
+        <!-- Values = couleur dégradé start; couleur dégradé start; couleur dégradé variation; couleur dégradé end;      -->
+        <!-- 
+                      KeyTime 
+                      → défini entre 0 et 1, avec 1 = "dur" soit la durée total de l'animation, ici 4s. donc keyTime=0.5 ç'est égale à la 2ème seconde dans l'animation
+
+                      Cas particulier, il s'agit d'une animation que l'on veut finir à 4s sur une animation d'une durée total de 4s donc le temps de fin de la transition du dégradé                          est égale à la valeur obligatoire 1, on ne la met donc qu'une seule fois
+
+                      = (obligatoire) 0 ; temps debut de transition dégradé; temps couleur de variation; temps fin de transition dégradé = (obligatoire) 1; 
+        -->
+
+        <animate attributeName="stop-color" values="#707070; #707070; #1aff00; #707070; #707070" keyTimes="0; 0.4; 0.6; 0.8; 1" dur="10s" repeatCount="indefinite"></animate>
+      </stop>
+      
+      <stop offset="80%" stop-color="#1aff00">
+        <!-- Values = couleur dégradé start; couleur dégradé start; couleur dégradé variation; couleur dégradé end;      -->
+        <!-- 
+                      KeyTime 
+                      → défini entre 0 et 1, avec 1 = "dur" soit la durée total de l'animation, ici 4s. donc keyTime=0.5 ç'est égale à la 2ème seconde dans l'animation
+
+                      Cas particulier, il s'agit d'une animation que l'on veut finir à 4s sur une animation d'une durée total de 4s donc le temps de fin de la transition du dégradé                          est égale à la valeur obligatoire 1, on ne la met donc qu'une seule fois
+
+                      = (obligatoire) 0 ; temps debut de transition dégradé; temps couleur de variation; temps fin de transition dégradé = (obligatoire) 1; 
+        -->
+
+        <animate attributeName="stop-color" values="#707070; #707070; #1aff00; #707070" keyTimes="0; 0.6; 0.8; 1" dur="10s" repeatCount="indefinite"></animate>
+      </stop>
+      
+  </linearGradient>
+  </svg>
+
+</body>
